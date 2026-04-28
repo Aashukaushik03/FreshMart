@@ -1,0 +1,33 @@
+export const ALL_PRODUCTS = [
+  { id: 1,  name: "Organic Avocados",      category: "Fruits",      price: 180, originalPrice: 220, emoji: "🥑", rating: 4.8, reviews: 234, badge: "Best Seller" },
+  { id: 2,  name: "Fresh Strawberries",    category: "Fruits",      price: 120, originalPrice: 150, emoji: "🍓", rating: 4.9, reviews: 189, badge: "New" },
+  { id: 3,  name: "Broccoli Crown",        category: "Vegetables",  price: 65,  originalPrice: 80,  emoji: "🥦", rating: 4.7, reviews: 156, badge: "Organic" },
+  { id: 4,  name: "Farm Eggs (12pk)",      category: "Dairy",       price: 95,  originalPrice: 110, emoji: "🥚", rating: 4.9, reviews: 412, badge: "Best Seller" },
+  { id: 5,  name: "Whole Milk 1L",         category: "Dairy",       price: 60,  originalPrice: 70,  emoji: "🥛", rating: 4.6, reviews: 98,  badge: null },
+  { id: 6,  name: "Baby Spinach",          category: "Vegetables",  price: 55,  originalPrice: 70,  emoji: "🌿", rating: 4.8, reviews: 203, badge: "Organic" },
+  { id: 7,  name: "Sweet Oranges",         category: "Fruits",      price: 90,  originalPrice: 110, emoji: "🍊", rating: 4.7, reviews: 167, badge: null },
+  { id: 8,  name: "Brown Rice 1kg",        category: "Grains",      price: 110, originalPrice: 130, emoji: "🌾", rating: 4.5, reviews: 88,  badge: "Healthy" },
+  { id: 9,  name: "Cherry Tomatoes",       category: "Vegetables",  price: 75,  originalPrice: 95,  emoji: "🍅", rating: 4.6, reviews: 142, badge: null },
+  { id: 10, name: "Mango (Alphonso)",      category: "Fruits",      price: 220, originalPrice: 260, emoji: "🥭", rating: 4.9, reviews: 321, badge: "Seasonal" },
+  { id: 11, name: "Greek Yogurt 400g",     category: "Dairy",       price: 130, originalPrice: 150, emoji: "🫙", rating: 4.7, reviews: 176, badge: null },
+  { id: 12, name: "Sweet Corn",            category: "Vegetables",  price: 45,  originalPrice: 60,  emoji: "🌽", rating: 4.5, reviews: 89,  badge: null },
+  { id: 13, name: "Blueberries 200g",      category: "Fruits",      price: 280, originalPrice: 320, emoji: "🫐", rating: 4.8, reviews: 211, badge: "Premium" },
+  { id: 14, name: "Butter 100g",           category: "Dairy",       price: 85,  originalPrice: 95,  emoji: "🧈", rating: 4.6, reviews: 134, badge: null },
+  { id: 15, name: "Quinoa 500g",           category: "Grains",      price: 195, originalPrice: 230, emoji: "🌾", rating: 4.7, reviews: 98,  badge: "Superfood" },
+  { id: 16, name: "Carrot Bundle",         category: "Vegetables",  price: 40,  originalPrice: 55,  emoji: "🥕", rating: 4.5, reviews: 112, badge: null },
+  { id: 17, name: "Banana (Dozen)",        category: "Fruits",      price: 60,  originalPrice: 75,  emoji: "🍌", rating: 4.6, reviews: 289, badge: null },
+  { id: 18, name: "Oats 1kg",             category: "Grains",      price: 145, originalPrice: 170, emoji: "🥣", rating: 4.8, reviews: 203, badge: "Healthy" },
+  { id: 19, name: "Paneer 200g",           category: "Dairy",       price: 110, originalPrice: 130, emoji: "🧀", rating: 4.7, reviews: 267, badge: "Fresh" },
+  { id: 20, name: "Bell Peppers (3pk)",    category: "Vegetables",  price: 80,  originalPrice: 100, emoji: "🫑", rating: 4.6, reviews: 145, badge: null },
+  { id: 21, name: "Pomegranate",           category: "Fruits",      price: 150, originalPrice: 180, emoji: "🍎", rating: 4.7, reviews: 178, badge: null },
+  { id: 22, name: "Wheat Flour 2kg",       category: "Grains",      price: 90,  originalPrice: 110, emoji: "🌾", rating: 4.5, reviews: 156, badge: null },
+  { id: 23, name: "Cucumber",             category: "Vegetables",  price: 30,  originalPrice: 40,  emoji: "🥒", rating: 4.4, reviews: 98,  badge: null },
+  { id: 24, name: "Watermelon",           category: "Fruits",      price: 120, originalPrice: 150, emoji: "🍉", rating: 4.8, reviews: 234, badge: "Seasonal" },
+];
+
+export const CATEGORIES = [
+  { emoji: "🥦", name: "Vegetables", count: "8 items",  color: "#e8f5e9" },
+  { emoji: "🍎", name: "Fruits",     count: "8 items",  color: "#fce4ec" },
+  { emoji: "🥛", name: "Dairy",      count: "5 items",  color: "#e3f2fd" },
+  { emoji: "🌾", name: "Grains",     count: "4 items",  color: "#fff8e1" },
+];
